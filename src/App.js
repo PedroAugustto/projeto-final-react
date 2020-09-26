@@ -1,16 +1,32 @@
 import React from 'react';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import './App.css';
-import Cabecalho from './Cabecalho';
-import Home from './Home';
-import Rodape from './Rodape';
+import Cabecalho from './components/Cabecalho';
+import Rodape from './components/Rodape';
+import Home from './components/Home';
+import Sobre from './components/Sobre';
+import Atrativos from './components/Atrativos';
+import Trilhas from './components/Trilhas';
+import ComoChegar from './components/ComoChegar';
+import Contato from './components/Contato';
+
 
 function App() {
   return (
-    <div className="container">
-         <Cabecalho />
-         <Home />
-         <Rodape />
-    </div>
+    <Router>
+      <div className="container">
+        <Cabecalho />
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/sobre" component={Sobre}/>
+            <Route path="/atrativos" component={Atrativos}/>
+            <Route path="/trilhas" component={Trilhas}/>
+            <Route path="/como-chegar" component={ComoChegar}/>
+            <Route path="/contato" component={Contato}/>
+          </Switch>
+        </div>
+      <Rodape />
+    </Router>
 
   );
 }

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Slide1 from  './img/Slide1.PNG';
-import img1 from './img/button01.png';
-import img2 from './img/button02.png';
-import img3 from './img/button03.png';
-import img4 from './img/button04.png';
-import img5 from './img/button05.png';
+import Slide1 from  '../img/Slide1.PNG';
+import img1 from '../img/button01.png';
+import img2 from '../img/button02.png';
+import img3 from '../img/button03.png';
+import img4 from '../img/button04.png';
+import img5 from '../img/button05.png';
 
 class Home extends Component {
 

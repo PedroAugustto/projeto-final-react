@@ -6,9 +6,11 @@ hr{border:1px solid #ccc;}
 
 .topo {border-bottom:2px solid green;background: #fff;}
 .topo-menu{margin-top: 16px;}
+.topo-menu ul{float: right;}
 .topo-menu ul li button{cursor:pointer; border-radius: 0; border-bottom: 2px solid transparent; text-transform: uppercase; background: transparent;}
 .topo-menu ul li button:hover{border-bottom: 2px solid #029757;}
 @media only screen and (max-width: 600px) {
+    .topo-img{text-align: center;}
     .topo-menu ul li a{cursor:pointer; border-radius: 0; border-bottom: 2px solid transparent; text-transform: uppercase; font-size:12px; padding:10px 8px;}
 }
 .topo-menu ul li a:hover{background-color: #fafafa; border-bottom: 2px solid yellowgreen;}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import ImgLogo from './img/parnaso-logo.png';
-import ImgLogoAna from './img/logo-ana.png';
-import ImgLogoIbama from './img/logo-ibama.png';
-import ImgLogoSfb from './img/logo-sfb.png';
-import ImgLogoJbrj from  './img/logo-jbrj.jpg';
+import ImgLogo from '../img/parnaso-logo.png';
+import ImgLogoAna from '../img/logo-ana.png';
+import ImgLogoIbama from '../img/logo-ibama.png';
+import ImgLogoSfb from '../img/logo-sfb.png';
+import ImgLogoJbrj from  '../img/logo-jbrj.jpg';
 
 class Rodape extends Component {
 
