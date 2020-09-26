@@ -17,12 +17,11 @@ render () {
            </div>
           <div className="col-md-8 topo-menu">
             <ul className="nav nav-pills" >
-                <Link to="/"><li role="presentation"><button className="btn" href="#">Inicio</button></li></Link>
-                <Link to="/sobre"><li role="presentation"><button className="btn" href="#">Sobre</button></li></Link>
-                <Link to="/atrativos"><li role="presentation"><button className="btn" href="#">Atrativos</button></li></Link>
-                <Link to="/trilhas"><li role="presentation"><button className="btn" href="#">Trilhas</button></li></Link>
-                <Link to="/como-chegar"><li role="presentation"><button className="btn" href="#">Como chegar</button></li></Link>
-                <Link to="/contato"><li role="presentation"><button className="btn" href="#">Contato</button></li></Link>
+                <Link to="/"><li role="presentation"><button className="btn">Inicio</button></li></Link>
+                <Link to="/atrativos"><li role="presentation"><button className="btn" >Atrativos</button></li></Link>
+                <Link to="/trilhas"><li role="presentation"><button className="btn" >Trilhas</button></li></Link>
+                <Link to="/como-chegar"><li role="presentation"><button className="btn" >Como chegar</button></li></Link>
+                <Link to="/contato"><li role="presentation"><button className="btn">Contato</button></li></Link>
             </ul>
          </div> 
         </div> 
