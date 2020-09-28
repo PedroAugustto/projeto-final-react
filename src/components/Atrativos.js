@@ -9,7 +9,7 @@ class Atrativos extends Component {
                     <div class="titulo">
                         <h1>Atrativos</h1>
                     </div>
-                    <div class= "atrativos-lista">
+                    <div class= "lista1">
                         <h3>Principais Atrativos</h3>
                         <ul>
                             <li>Centro de visitantes</li>

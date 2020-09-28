@@ -8,6 +8,7 @@ import Atrativos from './components/Atrativos';
 import Trilhas from './components/Trilhas';
 import ComoChegar from './components/ComoChegar';
 import Contato from './components/Contato';
+import PageNotFound from './components/PageNotFound';
 
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
             <Route path="/" exact component={Home}/>
             <Route path="/atrativos" component={Atrativos}/>
             <Route path="/trilhas" component={Trilhas}/>
-            <Route path="/como-chegar" component={ComoChegar}/>
+            {/* <Route path="/como-chegar" component={ComoChegar}/> */}
             <Route path="/contato" component={Contato}/>
+            <Route path="*" component={PageNotFound}/>
           </Switch>
           <Rodape />
         </div>

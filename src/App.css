@@ -35,29 +35,24 @@ hr{border:1px solid #ccc;}
 
 /*Atrativos*/
 .atrativos {padding-top:20px;}
-.atrativos-lista {text-align: left;border-left: 5px solid green; padding: 5px ;border-radius: 10px; margin-top:30px;}
+.lista1 {text-align: left;border-left: 5px solid green; padding: 5px ;border-radius: 10px; margin-top:30px;}
 .atrativos-texto {margin: 30px;}
-
 .botao{width:300px;  margin:10px auto; position:relative; display: block;background-color: #029757;}
 
-/*Trilhas*/
-.trilhas-nome {margin: 60px;}
-.trilhas-lista ul{margin-left: 60px;padding:40px;list-style-type: none;}
-/* .trilhas-lista ul li {margin-left: 30px} */
-.trilhas-descricao {margin: 50px}
-.mapa {text-align: center; padding-top: 20px;}
-.trilhas-titulo {text-align: center;}
-.foto {
-    float: left;
-    padding: 10px;
-}
-#mapa-de-trilhas {margin: 40px}
+/* Trilhas */
+.mapa {text-align: center;}
+.mapa img{padding: 20px;width: 95%;}
+.card-trilhas {display: inline-block; margin: 20px auto;}
+.card {width: 20rem; height: 75rem;}
 
 /*contato*/
 .contato-telefone {text-align: left;}
 .telefones {border-left: 5px solid green;padding: 5px ;border-radius: 10px;float: left;}
 .redes-sociais {font-size: 35px;text-align:center;float: right;}
 .contato{padding:20px 0; clear: both;}
+
+/*404*/
+.page-not-found{text-align:center;padding: 10%;}
 
 /*Footer*/
 .footer-color{background:#fafafa; border-top: 2px solid green;}
