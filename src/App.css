@@ -16,10 +16,13 @@ hr{border:1px solid #ccc;}
 .topo-menu ul li a:hover{background-color: #fafafa; border-bottom: 2px solid yellowgreen;}
 
 /*Conteúdo*/
-.titulo {background-color: green;color: #fff;text-align: center;border-radius: 30px;}
+.titulo {background-color: green;color: #fff;text-align: center;border-radius: 30px; margin-top: 10px;}
 .subtitulo {text-align: center; text-decoration: underline;}
 .conteudo{min-height: 500px; background: #ffffffd8;}
 .trilha {margin-top:10px;border: 1px solid black; border-radius: 10px;padding: 40px;}
+
+/*Home*/
+#tabela-home-links{margin: 0 auto;}
 
 /*Carrossel */
 .carousel {width: 100%; max-height:600px; overflow: hidden;}

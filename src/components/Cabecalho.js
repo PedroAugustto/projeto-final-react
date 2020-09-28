@@ -20,7 +20,7 @@ render () {
                 <Link to="/"><li role="presentation"><button className="btn">Inicio</button></li></Link>
                 <Link to="/atrativos"><li role="presentation"><button className="btn" >Atrativos</button></li></Link>
                 <Link to="/trilhas"><li role="presentation"><button className="btn" >Trilhas</button></li></Link>
-                {/* <Link to="/como-chegar"><li role="presentation"><button className="btn" >Como chegar</button></li></Link> */}
+                <Link to="/como-chegar"><li role="presentation"><button className="btn" >Como chegar</button></li></Link>
                 <Link to="/contato"><li role="presentation"><button className="btn">Contato</button></li></Link>
             </ul>
          </div> 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import Slide1 from  '../img/Slide1.PNG';
 import img1 from '../img/button01.png';
 import img2 from '../img/button02.png';
@@ -33,14 +34,13 @@ class Home extends Component {
 
                     {/* <!-- Início Chamada de páginas do site  --> */}
                     <div className="item">
-                        <table className='Table'>
+                        <table className='Table' id='tabela-home-links'>
                             <tbody>
                                 <tr>
-                                    <td><img src={img1} className= "img-responsive" alt="Sobre a PARNASO" /></td>
-                                    <td><img src={img2} className= "img-responsive" alt="Atrativos do Parque" /></td>
-                                    <td><img src={img3} className= "img-responsive" alt="Trilhas e Montanhismo" /></td>
-                                    <td><img src={img4} className= "img-responsive" alt="Localização da PARNASO" /></td>
-                                    <td><img src={img5} className= "img-responsive" alt="Contato e Redes Sociais" /></td>
+                                    <Link to="/atrativos"><td><img src={img2} className= "img-responsive" alt="Atrativos do Parque" /></td></Link>
+                                    <Link to="/trilhas"><td><img src={img3} className= "img-responsive" alt="Trilhas e Montanhismo" /></td></Link>
+                                    <Link to="/como-chegar"><td><img src={img4} className= "img-responsive" alt="Localização da PARNASO" /></td></Link>
+                                    <Link to="/contato"><td><img src={img5} className= "img-responsive" alt="Contato e Redes Sociais" /></td></Link>
                                 </tr>
                             </tbody>
                         </table>

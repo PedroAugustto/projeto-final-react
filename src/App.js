@@ -20,7 +20,7 @@ function App() {
             <Route path="/" exact component={Home}/>
             <Route path="/atrativos" component={Atrativos}/>
             <Route path="/trilhas" component={Trilhas}/>
-            {/* <Route path="/como-chegar" component={ComoChegar}/> */}
+            <Route path="/como-chegar" component={ComoChegar}/>
             <Route path="/contato" component={Contato}/>
             <Route path="*" component={PageNotFound}/>
           </Switch>
