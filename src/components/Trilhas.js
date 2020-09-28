@@ -54,7 +54,7 @@ class Trilhas extends Component {
                         </div>
                         <div className="mapa">
                             <h2 className="subtitulo">Mapa de Trilhas</h2>
-                            <a href={imgMapa} target="_blank"><img src={imgMapa} className="img-responsive" alt="Mapa das trilhas de Teresópolis" /></a>
+                            <a href={imgMapa} target="_blank" rel="noopener noreferrer"><img src={imgMapa} className="img-responsive" alt="Mapa das trilhas de Teresópolis" /></a>
                         </div>
                     </div>
                 </div>

@@ -39,6 +39,7 @@ class ComoChegar extends Component {
                     </div>
                     <div className="como-chegar-mapa">
                         <iframe
+                            title="Mapa PARNASO"
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29501.770679204164!2d-42.980919!3d-22.439512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b2fc4e7ae71d%3A0xa560f33c6b47710e!2sParque%20Nacional%20da%20Serra%20dos%20%C3%93rg%C3%A3os%20-%20PARNASO%20-%20Sede%20Teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1598932106766!5m2!1spt-BR!2sbr"
                             frameborder="0" allowfullscreen="" aria-hidden="false"
                             tabindex="0"></iframe>
