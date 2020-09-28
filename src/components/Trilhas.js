@@ -36,7 +36,7 @@ class Trilhas extends Component {
                         </div>
                         <div class="card-deck">
                             {this.state.listaTrilhas.map(trilha =>(
-                            <div className="card-trilhas">
+                            <div className="card-trilhas d-flex justify-content-center">
                                 <div className="card text-white bg-success mb-3">
                                     <img className="card-img-top fotoTrilha" src={trilha.imagem} alt="Foto da Trilha" />
                                     <div className="card-body">

@@ -11,10 +11,10 @@ class Rodape extends Component {
         return (
         <footer>
             <div className="row footer-color">
-                    <div className="col-md-2 footer-div">
-                        <a href="index.html"><img src={ImgLogo} alt="Logo Parnaso" className="img-rounded img-responsive center-block" /></a>
+                    <div className="col-md-2 footer-div col-sm-12 logo-rodape">
+                        <img src={ImgLogo} alt="Logo Parnaso" className="img-rounded img-responsive mx-auto d-block" />
                     </div>
-                    <div className="col-md-10">
+                    <div className="col-md-10 col-sm-12 align-self-center">
                         <div className="footer-menu">
                             <ul className="nav nav-pills">
                                 <li><a rel="noopener noreferrer"  href="https://www.ana.gov.br/" target="_blank"><img alt="Logo" src={ImgLogoAna}/></a></li>

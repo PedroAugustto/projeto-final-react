@@ -11,10 +11,8 @@ hr{border:1px solid #ccc;}
 .topo-menu ul li button:hover{border-bottom: 2px solid #029757;}
 @media only screen and (max-width: 600px) {
     .topo-img{text-align: center;}
-    .topo-menu ul li a{cursor:pointer; border-radius: 0; border-bottom: 2px solid transparent; text-transform: uppercase; font-size:12px; padding:10px 8px;}
+    .topo-menu ul li button{font-size:13px}
 }
-.topo-menu ul li a:hover{background-color: #fafafa; border-bottom: 2px solid yellowgreen;}
-
 /*Conteúdo*/
 .titulo {background-color: green;color: #fff;text-align: center;border-radius: 30px; margin-top: 10px;}
 .subtitulo {text-align: center; text-decoration: underline;}
@@ -61,15 +59,21 @@ hr{border:1px solid #ccc;}
 .footer-color{background:#fafafa; border-top: 2px solid green;}
 .footer-div img{max-width:150px; margin-top:30px; }
 
-.footer-menu {width:auto; float:right}
-.footer-menu ul{margin-right: 0;}
-.footer-menu ul li{list-style-type: none;}
+/* .footer-menu {width:auto; float:right} */
+/* .footer-menu ul{display:block; margin-right: 0;} */
+/* .footer-menu ul li{list-style-type: none;} */
+.footer-menu {width:100% !important;display: block;}
+.footer-menu img{ width: 50px;}
+.footer-menu ul {display:block;float: right;}
+.footer-menu ul li{display: block; float: left;position: relative;margin-left:20px}
 .footer-menu ul li a{list-style-type: none; height: 100px;}
-.footer-menu img{ width: 50px; margin: 20px 15px;}
+/* .footer-menu img{ width: 50px; margin: 20px 15px; display:block;} */
 
 @media only screen and (max-width: 600px) {
-    .footer-menu {width:auto; margin: 0 12%;}
-    .footer-menu img{ width: 50px; margin: 20px auto;}
+    .footer-menu {width:100% !important;display: block;}
+    .footer-menu img{ width: 50px;display: block;margin: 0 auto;}
+    .footer-menu ul {display:block; float: left;margin-top: 15px;margin-left: 12%;}
+    .footer-menu ul li{display: block; float: left;position: relative;margin-left:20px}
 }
 
 #page-3 p, #page-4 p , #page-5 p {
