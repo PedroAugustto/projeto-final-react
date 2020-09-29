@@ -1,0 +1,17 @@
+Pacotes para execução:
+
+1 - Slides
+npm i react-responsive-carousel
+
+2 - Fade Text
+npm i react-fade-in
+
+3 - Typescript
+npm install typescript
+
+4 - Hooks
+npm i @restart/hooks
+
+
+
+	

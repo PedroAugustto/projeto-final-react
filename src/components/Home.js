@@ -1,40 +1,50 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
-import Slide1 from  '../img/Slide1.PNG';
-import img1 from '../img/button01.png';
+import Carousel from './Carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import FadeIn from 'react-fade-in';
+import {Link} from 'react-router-dom';
 import img2 from '../img/button02.png';
 import img3 from '../img/button03.png';
 import img4 from '../img/button04.png';
 import img5 from '../img/button05.png';
+import dep1 from '../img/depoimento01.png';
+import dep2 from '../img/depoimento02.png';
+import dep3 from '../img/depoimento03.png';
+
+
 
 class Home extends Component {
-
+   
     render () {
         return (
             <div id="page-1" className="row conteudo">
                 <div className="col-md-12">
-                            <div className="item">
-                                <img src={Slide1} alt="Pico Dedo de Deus" />
-                            </div>
-
-                    {/* <!-- Fim Slide página inicial --> */}
+            {/* <!-- Início Slide página inicial --> */}
+                <div alinh className="carrossel">
+                    <Carousel />
+                </div>
+                             
+            {/* <!-- Fim Slide página inicial --> */}
                     <br />
                     <br />
                     {/* <!-- Início apresentação do Site --> */}
-                    <p>
-                        <h2 className="modal-title" align="center">Com mais de 20 mil hectares espalhados por quatro
-                            municípios do Estado
-                            do Rio de Janeiro, o PARNASO é um dos melhores locais do Brasil para trilhas, escaladas,
-                            piscinas naturais e banhos de cachoeira.
-                            Diversão e lazer para toda a família e para os amantes da aventura!</h2>
-                    </p>
+                    <FadeIn>             
+                            <p>
+                                <h2 className="modal-title" align="center">Com mais de 20 mil hectares espalhados por quatro
+                                    municípios do Estado
+                                    do Rio de Janeiro, o PARNASO é um dos melhores locais do Brasil para trilhas, escaladas,
+                                    piscinas naturais e banhos de cachoeira.
+                                    Diversão e lazer para toda a família e para os amantes da aventura!</h2>
+                            </p>
+                    </FadeIn>
                     {/* <!-- Fim apresentação do Site --> */}
                     <br />
                     <br />
 
                     {/* <!-- Início Chamada de páginas do site  --> */}
+                <FadeIn>
                     <div className="item">
-                        <table className='Table' id='tabela-home-links'>
+                        <table className='Table tabela-home' id='tabela-home-links'>
                             <tbody>
                                 <tr>
                                     <Link to="/atrativos"><td><img src={img2} className= "img-responsive" alt="Atrativos do Parque" /></td></Link>
@@ -45,10 +55,11 @@ class Home extends Component {
                             </tbody>
                         </table>
                     </div>
+                </FadeIn>
                     {/* <!-- Fim Chamada de páginas do site  --> */}
 
                     <br />
-
+                    <br />
                     {/* <!-- Início de Depoimentos  --> */}
 
                     <div className="text-center">
@@ -56,31 +67,19 @@ class Home extends Component {
                             <h3 className="modal-title" align="center">DEPOIMENTOS</h3>
                         </p>
             
-                        <table className="table">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <p>
-                                            <h4 className="modal-title">Silvia M</h4>
-                                        </p>
-                                        <p><strong>Vá ver as nuvens de pertinho...</strong></p>
-                                        <p className="text-justify">O parque atravessa as cidades de Petrópolis, Teresópolis e
-                                            Itaipava. Várias atrações. No mirante do Soberbo (sobre o rio Soberbo) você terá
-                                            a melhor vista do dedo de Deus.</p>
-                                    </td>
-                                    <td>
-                                        <p>
-                                            <h4 className="modal-title">Alexandre A</h4>
-                                        </p>
-                                        <p><strong>Maravilhoso!</strong></p>
-                                        <p className="text-justify">Um lugar lindo pra ir com toda a família. Acesso fácil para crianças e idosos. A
-                                            piscina natural gigante renova as nossas energias, e o passeio pela trilha
-                                            suspensa pode ser feito devagar para curtir o visual no passo do visitante. Da
-                                            até pra cadeirantes.</p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <FadeIn>
+                            <div className="item">
+                                <table className='Table tabela-home' id='tabela-home-links'>
+                                    <tbody>
+                                        <tr>
+                                            <td><img src={dep2} className= "img-responsive" alt="Depoimento"/></td>
+                                            <td><img src={dep1} className= "img-responsive" alt="Depoimento"/></td>
+                                            <td><img src={dep3} className= "img-responsive" alt="Depoimento"/></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </FadeIn>
                     </div>
                     {/* <!-- Fim de Depoimentos  --> */}
                     <br />
